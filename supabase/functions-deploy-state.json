@@ -1,0 +1,9 @@
+{
+  "projectId": "71891295",
+  "functions": {
+    "send-contact-email": {
+      "hasChanged": false,
+      "hash": "dcb40b7eee47b72e298f77cbeb2d501687274b4e081e0529b9a9d9661fa5db3d"
+    }
+  }
+}

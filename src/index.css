@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark theme (default) */
+:root,
+[data-theme="dark"] {
+  --bg-base: #0f1113;
+  --bg-surface: #13161a;
+  --bg-elevated: #1a1d21;
+  --bg-card: rgba(255, 255, 255, 0.05);
+  --bg-card-hover: rgba(255, 255, 255, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.10);
+  --border-default: rgba(255, 255, 255, 0.15);
+  --text-primary: #ffffff;
+  --text-secondary: #cdd1d7;
+  --text-muted: #7e8693;
+  --text-faint: #5f6772;
+  --nav-bg: rgba(15, 17, 19, 0.95);
+  --nav-text: #e6e8eb;
+  --input-bg: rgba(0, 0, 0, 0.3);
+  --input-text: #ffffff;
+  --input-placeholder: #5f6772;
+  --hero-overlay-left: rgba(15, 17, 19, 0.85);
+  --hero-overlay-mid: rgba(15, 17, 19, 0.50);
+  --hero-overlay-right: rgba(15, 17, 19, 0.10);
+  --hero-bottom-fade: rgba(15, 17, 19, 0.65);
+  --contact-overlay: rgba(15, 17, 19, 0.60);
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --bg-base: #e9ebee;
+  --bg-surface: #e2e5e9;
+  --bg-elevated: #d9dde2;
+  --bg-card: rgba(0, 0, 0, 0.03);
+  --bg-card-hover: rgba(0, 0, 0, 0.06);
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --border-default: rgba(0, 0, 0, 0.12);
+  --text-primary: #111113;
+  --text-secondary: #33373d;
+  --text-muted: #6b7280;
+  --text-faint: #9ca3af;
+  --nav-bg: rgba(233, 235, 238, 0.95);
+  --nav-text: #1a1d21;
+  --input-bg: rgba(0, 0, 0, 0.03);
+  --input-text: #111113;
+  --input-placeholder: #9ca3af;
+  --hero-overlay-left: rgba(233, 235, 238, 0.40);
+  --hero-overlay-mid: rgba(233, 235, 238, 0.20);
+  --hero-overlay-right: rgba(233, 235, 238, 0.03);
+  --hero-bottom-fade: rgba(233, 235, 238, 0.35);
+  --contact-overlay: rgba(233, 235, 238, 0.50);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background-color: var(--color-primary, #dc2626);
+  color: #ffffff;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
