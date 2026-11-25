@@ -178,7 +178,7 @@ export const DEFAULT_CONTENT = {
     ],
   },
   whatsapp: {
-    phoneNumber: "09155406546",
+    phoneNumber: "08075071693",
     message: "Hello, I'd like to enquire about your metal products.",
   },
   contact: {
@@ -186,7 +186,7 @@ export const DEFAULT_CONTENT = {
     title: "Request a Quote",
     description:
       "Tell us what you need — grade, dimensions, quantity — and we will get back to you within one business day with a competitive quote.",
-    phone: "09155406546",
+    phone: "08075071693",
     email: "samsonadeoba17@gmail.com",
     address: "1842 Foundry Road, Eastgate Industrial Park",
     hours: "Mon–Fri 6:00 AM – 5:00 PM · Sat 7:00 AM – 12:00 PM",
