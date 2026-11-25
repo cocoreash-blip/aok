@@ -7,7 +7,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 export const DEFAULT_CONTENT = {
   brand: {
-    name: "FORGEWELL",
+    name: "AOK",
     nameSecond: "METAL CO.",
     logoUrl: null,
   },
@@ -24,7 +24,7 @@ export const DEFAULT_CONTENT = {
     titleLine1: "Steel, Aluminum & Copper",
     titleLine2: "Delivered to Your Door",
     description:
-      "For over three decades, Forgewell Metal Co. has supplied fabricators, builders, and manufacturers with premium-grade metal — cut to spec, delivered on time, every time.",
+      "For over three decades, AOK Metal Co. has supplied fabricators, builders, and manufacturers with premium-grade metal — cut to spec, delivered on time, every time.",
     button1Text: "Request a Quote",
     button2Text: "About Us",
     stats: [
@@ -38,11 +38,11 @@ export const DEFAULT_CONTENT = {
       "https://images.pexels.com/photos/37598393/pexels-photo-37598393.png?auto=compress&cs=tinysrgb&w=1200",
     badge: "Est. 1992",
     badgeLabel: "Family Owned",
-    eyebrow: "About Forgewell",
+    eyebrow: "About AOK",
     title: "Built on Strength,",
     titleAccent: "Forged by Trust",
     paragraph1:
-      "Forgewell Metal Co. started as a single warehouse on the east side of town with a truck and a simple promise: quality metal, fair prices, no excuses. Three decades later we operate a 40,000 sq ft facility, serve hundreds of active clients, and still honor that same promise every single day.",
+      "AOK Metal Co. started as a single warehouse on the east side of town with a truck and a simple promise: quality metal, fair prices, no excuses. Three decades later we operate a 40,000 sq ft facility, serve hundreds of active clients, and still honor that same promise every single day.",
     paragraph2:
       "Our team knows metal. Whether you need a single sheet of aluminum or a truckload of structural steel, we source it, cut it, and get it to your shop floor — fast.",
     tags: ["ISO 9001 Certified", "Same-Day Pickup"],
@@ -178,7 +178,7 @@ export const DEFAULT_CONTENT = {
     ],
   },
   whatsapp: {
-    phoneNumber: "",
+    phoneNumber: "09155406546",
     message: "Hello, I'd like to enquire about your metal products.",
   },
   contact: {
@@ -186,16 +186,16 @@ export const DEFAULT_CONTENT = {
     title: "Request a Quote",
     description:
       "Tell us what you need — grade, dimensions, quantity — and we will get back to you within one business day with a competitive quote.",
-    phone: "(555) 284-9100",
-    email: "sales@forgewellmetal.com",
+    phone: "09155406546",
+    email: "samsonadeoba17@gmail.com",
     address: "1842 Foundry Road, Eastgate Industrial Park",
     hours: "Mon–Fri 6:00 AM – 5:00 PM · Sat 7:00 AM – 12:00 PM",
     buttonText: "Send Request",
     backgroundColor: "#111113",
-    receiveEmail: "",
+    receiveEmail: "samsonadeoba17@gmail.com",
   },
   footer: {
     description: "Premium industrial metal suppliers. Family owned since 1992.",
-    copyright: "Forgewell Metal Co. All rights reserved.",
+    copyright: "AOK Metal Co. All rights reserved.",
   },
 };
